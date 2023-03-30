@@ -9,6 +9,8 @@ How to integrate ChatGPT3 with nodejs application
 To solve this, I created my api key from https://platform.openai.com/, read the documentation from https://platform.openai.com/docs/api-reference and then integrated chatgpt api with nodejs. Have used openai npm package for communicating with chatgpt. Moreover I have used completions service of chatgpt for this task. 
 
 ## Solution
+
+```
 const express = require("express");
 const app = express();
 const bodyParser = require('body-parser');
@@ -46,4 +48,5 @@ app.post('/text-generator',(req, res) => {
 app.listen(3001, () => {
   console.log('Server running on http://localhost:3001/');
 });
+```
 
