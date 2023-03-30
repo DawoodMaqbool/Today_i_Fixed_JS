@@ -48,5 +48,13 @@ app.post('/text-generator',(req, res) => {
 app.listen(3001, () => {
   console.log('Server running on http://localhost:3001/');
 });
+
+//You can test this by sending a request via postman with following json as body 
+
+{
+  "model": "text-davinci-003",
+  "prompt": "what is nodejs",
+  "max_tokens": 850
+}
 ```
 
