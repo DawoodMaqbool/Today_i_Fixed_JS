@@ -56,5 +56,9 @@ app.listen(3001, () => {
   "prompt": "what is nodejs",
   "max_tokens": 850
 }
+
 ```
+## Output
+
+![Response](../images/chatgptResponse.png?raw=true "Response")
 
