@@ -58,6 +58,10 @@ app.listen(3001, () => {
 }
 
 ```
+
+## Input
+#### What is Nodejs?
+
 ## Output
 
 ![Response](../images/chatgptResponse.png?raw=true "Response")
