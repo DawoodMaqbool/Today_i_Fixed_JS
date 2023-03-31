@@ -1,5 +1,5 @@
 ## Problem
-I have a list of items, when user types text filter out items from list and highlight the search term in each result.
+I have a list of items, when user types text, filter out items from list and highlight the search term in each result.
 
 ## Environment
 
@@ -7,7 +7,7 @@ I have a list of items, when user types text filter out items from list and high
 
 ## How you fix it
 
-We create a function which takes two parameters, array and search text. then apply filter method to extract all items containing search text. Each return item comes with it's original text but search text / term wrapped in a span and add class on the span to highlight it.
+We create a function which takes two parameters, array and search text. then apply filter method to extract all items containing search text. Each returned item comes with it's original text but search text / term wrapped in a span and add class on the span to highlight it.
 
 ## Solution
 
