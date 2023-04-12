@@ -1,5 +1,5 @@
 ## Problem
-By default, fetch api doesn't provide request and response interception. 
+By default, JavaScript's native fetch api doesn't provide request and response interception. 
 
 ## Environment
 
@@ -7,7 +7,7 @@ By default, fetch api doesn't provide request and response interception.
 
 ## How you fix it
 
-One way to create an interceptor for fetch api is to monkey patch it. Monkey patching is an approach to override the original functionality with your version of the function. In the following code snippet, I'm intercepting the requests by altering the url and then intercepting the response by changing the title property. 
+One way to create an interceptor for Javascript's fetch api is to monkey patch it. Monkey patching is an approach to override the original functionality with your version of the function. In the following code snippet, I'm intercepting the requests by altering the url and then intercepting the response by changing the title property. 
 
 ## Solution
 
