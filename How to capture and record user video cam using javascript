@@ -1,6 +1,6 @@
 
 ## Problem
-We need to capture user web cam for multiple purpose.
+We need to capture and record user web cam for multiple purpose Download video as well.
 
 ## Environment
 - IDE Version: Visual Studio Code
@@ -126,5 +126,5 @@ To solve the problem, I am using `MDN Media streaming api functions` and plain j
 
 ## Usage
 
-Just tapping the start and stop button you can capture the screen.
+Just tapping the start and stop button you can capture and record the cam.
 
