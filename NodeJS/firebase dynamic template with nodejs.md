@@ -1,7 +1,7 @@
 ## Problem
 
 ...
-How to trigger dynamic templates in firebase notifications
+How to trigger dynamic templates in firebase notifications. Currently firebase FCM does not allow direct dynamic variable substitution so we need a way to send dynamic template notification through firebase.
 
 ## Environment
 
